@@ -1,6 +1,7 @@
 alias ls="eza --color=auto"
 alias la="eza -a"
-alias ll="eza -alFh"
+#alias ll="eza -alhF"
+alias ll="eza -alh"
 alias l="eza"
 alias l.="eza -A | grep -E '^\.'"
 alias listdir="eza -d */ > list"
