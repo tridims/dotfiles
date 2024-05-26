@@ -1,3 +1,8 @@
+alias open-skripsi="code ~/skripsi/Used\ Docs/Latex-Skripsi"
+
+# alias fish private
+alias fp="fish --private"
+
 alias ls="eza --color=auto"
 alias la="eza -a"
 #alias ll="eza -alhF"

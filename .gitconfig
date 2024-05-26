@@ -1,6 +1,7 @@
 [user]
 	name = Dimas Tri Mustakim
 	email = test31122001@gmail.com
+	signingkey = C6402D853919817F
 [init]
 	defaultBranch = main
 # Git alias ⬇️ https://laravel-news.com/five-ways-to-be-more-productive-with-git
@@ -11,3 +12,5 @@
     uncommit = reset --soft HEAD~1
     pall = "!for remote in $(git remote); do git push $remote; done"
     
+[commit]
+	gpgsign = true
