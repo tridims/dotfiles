@@ -1,4 +1,8 @@
 alias open-skripsi="code ~/skripsi/Used\ Docs/Latex-Skripsi"
+alias compose="docker-compose"
+
+# claude engineer
+alias claude-engineer="/home/dimas/project/ai-tools/claude-engineer/venv/bin/python /home/dimas/project/ai-tools/claude-engineer/main.py"
 
 # alias fish private
 alias fp="fish --private"
@@ -87,3 +91,13 @@ alias jctl="journalctl -p 3 -xb"
 #btrfs aliases
 alias btrfsfs="sudo btrfs filesystem df /"
 alias btrfsli="sudo btrfs su li / -t"
+
+# cleanup nautilus recent
+alias nautilus-recent="rm ~/.local/share/recently-used.xbel"
+
+# Ctrl + o to open file in terminal
+function fzf_vim_open
+    open (fzf)
+end
+
+alias fzfo="fzf_vim_open"
