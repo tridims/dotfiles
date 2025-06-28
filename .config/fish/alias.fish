@@ -1,5 +1,18 @@
+alias open-alias="nvim ~/.config/fish/alias.fish"
+
+# Set proxy
+alias kubectl-proxy-bastion="HTTPS_PROXY=socks5://localhost:1080"
+
+# Development shortcut
+alias lint-check-airflow="ruff check dags/ --select AIR3 --preview"
+alias zl="zellij"
+
 alias open-skripsi="code ~/skripsi/Used\ Docs/Latex-Skripsi"
 alias compose="docker-compose"
+
+# Just for reminder
+alias experimental-git="jj"
+alias better-du="dust"
 
 # claude engineer
 alias claude-engineer="/home/dimas/project/ai-tools/claude-engineer/venv/bin/python /home/dimas/project/ai-tools/claude-engineer/main.py"
@@ -27,6 +40,7 @@ alias k="kubectl"
 alias animel="ani-cli -q 480p"
 alias anime="ani-cli -q 720p"
 alias animedl="ani-cli -q 720p -d"
+alias ani="ani-cli"
 
 # nvidia
 alias nvf="sudo nvidia-smi -i 0000:01:00.0 -pm 0 && sudo nvidia-smi drain -p 0000:01:00.0 -m 1"
